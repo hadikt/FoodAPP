@@ -1,0 +1,4 @@
+<div class="flex justify-center mt-[3rem] mb-[1.5rem] p-5 h-20">
+  <input class="rounded-tl-[10rem] rounded-bl-[10rem] border-2 border-black pl-4 " #s type="text" placeholder="search Food Mine!"(keyup.enter)="search(s.value)" [value]="searchTerm">
+  <button class="p-2 bg-red-700 text-gray-200 opacity-90 outline-none rounded-tr-2xl rounded-br-2xl h-10 hover:opacity-50" (click)="search(s.value)">search</button>
+</div>

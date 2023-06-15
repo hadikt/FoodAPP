@@ -1,0 +1,5 @@
+<div class="flex flex-wrap gap-1 justify-center p-3 pb-6" *ngIf="tags">
+  <a class="bg-red-700 p-2 pl-2  rounded-[10rem] text-base text-white" *ngFor="let tag of tags" routerLink="/tag/{{tag.name}}">
+    {{tag.name}}({{tag.count}})
+  </a>
+</div>
